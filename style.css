@@ -1,0 +1,14 @@
+:root { --fundo:#eef1f4; --tinta:#1b2430; --suave:#5b6776; --acento:#2f5d8a; --painel:#1f2a37; --texto-painel:#dbe5f0; }
+* { box-sizing: border-box; }
+body { margin:0; background:var(--fundo); color:var(--tinta); font:16px/1.55 system-ui, "Segoe UI", sans-serif; }
+header { background:var(--painel); color:#fff; padding:2rem 1.25rem; }
+header h1 { margin:0 auto; max-width:60rem; font-size:1.75rem; }
+header p { margin:.25rem auto 0; max-width:60rem; color:#9fb2c8; }
+main { max-width:60rem; margin:0 auto; padding:1.5rem 1.25rem 3rem; }
+h2 { margin:2.25rem 0 .75rem; padding-bottom:.4rem; border-bottom:3px solid var(--acento); font-size:1.3rem; }
+.questao { background:#fff; border-radius:6px; padding:1rem 1.1rem; margin-bottom:1rem; box-shadow:0 1px 2px rgba(0,0,0,.08); }
+.questao h3 { margin:0 0 .15rem; font-size:1rem; color:var(--acento); }
+.questao .enunciado { margin:0 0 .75rem; color:var(--suave); font-size:.9rem; }
+.linha { margin:.4rem 0; }
+.rotulo { display:block; font-size:.85rem; font-weight:600; margin-bottom:.15rem; }
+pre { margin:0; padding:.6rem .8rem; background:var(--painel); color:var(--texto-painel); border-radius:4px; font:.85rem/1.5 ui-monospace, Consolas, monospace; white-space:pre-wrap; overflow-x:auto; }
